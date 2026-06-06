@@ -1,5 +1,6 @@
-if game.PlaceId ~= 155615604 then
-    return
-end
+if game.PlaceId == 155615604 then
+    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/a58a87b06cb79a06a19257e1015abb7de6a49db49ec9b8422f9431bc7d6934b7/download"))()
 
-loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/a58a87b06cb79a06a19257e1015abb7de6a49db49ec9b8422f9431bc7d6934b7/download"))()
+elseif game.PlaceId == 6520999642 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CodingSHSTUDIO/FAMILLY/refs/heads/main/Fnf%20remix"))()
+end
